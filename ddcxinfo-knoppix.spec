@@ -11,6 +11,7 @@ Group:		Applications/System
 Source0:	http://developer.linuxtag.net/knoppix/sources/%{name}_%{_ver}-%{sub_ver}.tar.gz
 # Source0-md5:	a397ca0ab56e83dd0fdeb4d0a84b8c9e
 URL:		http://www.knopper.net/
+ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
