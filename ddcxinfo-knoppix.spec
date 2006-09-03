@@ -8,7 +8,7 @@ Release:	0.1
 Epoch:		0
 License:	GPL v2
 Group:		Applications/System
-Source0:	http://debian-knoppix.alioth.debian.org/sources//%{name}_%{_ver}-%{sub_ver}.tar.gz
+Source0:	http://debian-knoppix.alioth.debian.org/sources/%{name}_%{_ver}-%{sub_ver}.tar.gz
 # Source0-md5:	1d457540141e1e148243960f44410a54
 URL:		http://www.knopper.net/
 ExclusiveArch:	%{ix86}
