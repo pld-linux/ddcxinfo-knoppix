@@ -1,5 +1,5 @@
 Summary:	Monitor/Graphics card DDC hardware detection
-Summary(pl):	Rozpoznawanie monitora przez kana≥ DDC karty graficznej
+Summary(pl.UTF-8):   Rozpoznawanie monitora przez kana≈Ç DDC karty graficznej
 Name:		ddcxinfo-knoppix
 %define 	sub_ver	7
 %define		_ver	0.6
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Monitor/Graphics card DDC hardware detection.
 
-%description -l pl
-Rozpoznawanie monitora przez kana≥ DDC karty graficznej.
+%description -l pl.UTF-8
+Rozpoznawanie monitora przez kana≈Ç DDC karty graficznej.
 
 %prep
 %setup -q -n %{name}-%{_ver}
