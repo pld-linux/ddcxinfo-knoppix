@@ -1,5 +1,5 @@
 Summary:	Monitor/Graphics card DDC hardware detection
-Summary(pl.UTF-8):   Rozpoznawanie monitora przez kanał DDC karty graficznej
+Summary(pl.UTF-8):	Rozpoznawanie monitora przez kanał DDC karty graficznej
 Name:		ddcxinfo-knoppix
 %define 	sub_ver	7
 %define		_ver	0.6
