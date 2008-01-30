@@ -1,7 +1,7 @@
 Summary:	Monitor/Graphics card DDC hardware detection
 Summary(pl.UTF-8):	Rozpoznawanie monitora przez kanał DDC karty graficznej
 Name:		ddcxinfo-knoppix
-%define 	sub_ver	7
+%define 	sub_ver	8
 %define		_ver	0.6
 Version:	%{_ver}_%{sub_ver}
 Release:	0.1
@@ -9,7 +9,7 @@ Epoch:		0
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://debian-knoppix.alioth.debian.org/sources/%{name}_%{_ver}-%{sub_ver}.tar.gz
-# Source0-md5:	1d457540141e1e148243960f44410a54
+# Source0-md5:	dc7226f567e424448f96af0adb5d0dd1
 URL:		http://www.knopper.net/
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
